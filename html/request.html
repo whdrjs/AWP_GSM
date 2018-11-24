@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Gachon Study Maker</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!------ Include the above in your HEAD tag ---------->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <link href="css/request.css" rel="stylesheet">
+</head>
+<body style="background-color:#F8F9FA;">
+<!-- Navigation -->
+<nav class="navbar navbar-light bg-light static-top"style="margin: 15px 1px 15px 1px;">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Gachon Study Maker</a>
+        <a class="btn btn-primary" href="#">Make New study</a>
+    </div>
+</nav>
+
+<div class="container register">
+    <div class="row">
+        <div class="col-md-6 register-left" style="text-align: center">
+            <script type="text/javascript" src="js/countingdown.js"></script>
+            <h3 id="head">Study Deadline</h3>
+            <ul>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <!--<li><span id="seconds"></span>Seconds</li>-->
+            </ul>
+            <br/>
+            <p>You are 30 seconds away from earning your own money!</p>
+            <br/>
+        </div>
+
+        <div class="col-md-6 register-right static-top">
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h3 class="register-heading">Apply to Study</h3>
+                    <br/>
+                    <div class="row register-form">
+                        <div class="col-md-11 my-auto">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Student ID *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="Kakao ID *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                            </div>
+                            <button id="register" type="submit" class="btn btn-block btn-lg btn-primary">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="footer bg-light" style="margin: 20px 1px 20px 1px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                <ul class="list-inline mb-2">
+                    <li class="list-inline-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
